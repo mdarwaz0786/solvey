@@ -1,0 +1,42 @@
+const HealthEmpowermentSection = () => {
+  return (
+    <div className="container-fluid p-5" style={{ backgroundColor: "#4B2C5E" }}>
+      <div className="row g-0 align-items-stretch">
+
+        {/* RIGHT CONTENT SECTION */}
+        <div className="col-lg-6 col-md-12 d-flex align-items-center">
+          <div className="p-5 pt-0 text-white">
+
+            {/* TITLE */}
+            <h2 className="fw-bold text-warning mb-4">
+              HEALTH EMPOWEMENT
+            </h2>
+
+            {/* DESCRIPTION */}
+            <div className="mb-4">
+              <p className="mb-2">
+                At Solvey Laboratories Private Limited, we collaborate closely with our patrons and partners to promote and support the health of all people, with a dedicated focus on women and girls. Our initiatives include the continuous training of skilled birth attendants to provide life-saving services when childbirth complications arise. We also advocate for increased access to contraceptives and the provision of sexual and reproductive health services for adolescents.
+                We actively campaign against gender-based violence and harmful practices that cause life-threatening injuries to young girls and adolescents. Our mission is to empower women through education, economic opportunities, healthcare, and legal rights. By doing so, we enable them to demand better treatment and services, ensuring they can reach their full potential as human beings.
+              </p>
+            </div>
+
+            {/* BUTTON */}
+            <a href="#" className="btn btn-light rounded-pill px-4">
+              Read More →
+            </a>
+          </div>
+        </div>
+
+        {/* LEFT IMAGE SECTION */}
+        <div className="col-lg-6 col-md-12">
+          <img
+            src="/credo.jpg"
+            alt="image"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default HealthEmpowermentSection;
