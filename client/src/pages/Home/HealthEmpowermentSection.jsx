@@ -1,6 +1,16 @@
+import empowermentBg from "../../assets/2.png";
+
 const HealthEmpowermentSection = () => {
   return (
-    <div className="container-fluid p-5" style={{ backgroundColor: "#4B2C5E" }}>
+    <div
+      className="container-fluid p-5"
+      style={{
+        backgroundImage: `url(${empowermentBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="row g-0 align-items-stretch">
 
         {/* RIGHT CONTENT SECTION */}

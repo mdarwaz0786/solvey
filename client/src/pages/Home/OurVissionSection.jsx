@@ -1,6 +1,16 @@
+import vissionBg from "../../assets/1.png";
+
 const OurVissionSection = () => {
   return (
-    <div className="container-fluid p-5" style={{ backgroundColor: "#B84C65" }}>
+    <div
+      className="container-fluid p-5"
+      style={{
+        backgroundImage: `url(${vissionBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="row g-0 align-items-stretch">
 
         {/* LEFT IMAGE SECTION */}

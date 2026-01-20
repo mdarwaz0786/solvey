@@ -1,6 +1,16 @@
+import aboutBg from "../../assets/1.png";
+
 const AboutusSection = () => {
   return (
-    <div className="container-fluid p-5" style={{ background: "#cf2e2e" }}>
+    <div
+      className="container-fluid p-5"
+      style={{
+        backgroundImage: `url(${aboutBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="row g-0 align-items-stretch">
 
         {/* RIGHT CONTENT SECTION */}

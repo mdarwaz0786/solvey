@@ -1,6 +1,16 @@
+import missionBg from "../../assets/3.png";
+
 const OurMissionSection = () => {
   return (
-    <div className="container-fluid p-5" style={{ backgroundColor: "#1F6F78" }}>
+    <div
+      className="container-fluid p-5"
+      style={{
+        backgroundImage: `url(${missionBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="row g-0 align-items-stretch">
 
         {/* RIGHT CONTENT SECTION */}

@@ -1,6 +1,16 @@
+import credoBg from "../../assets/2.png";
+
 const OurCredoSection = () => {
   return (
-    <div className="container-fluid p-5" style={{ background: "#4054B2" }}>
+    <div
+      className="container-fluid p-5"
+      style={{
+        backgroundImage: `url(${credoBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="row g-0 align-items-stretch">
 
         {/* LEFT IMAGE SECTION */}
