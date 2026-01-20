@@ -1,4 +1,4 @@
-import credoBg from "../../assets/2.png";
+import credoBg from "../../assets/3.png";
 
 const OurCredoSection = () => {
   return (

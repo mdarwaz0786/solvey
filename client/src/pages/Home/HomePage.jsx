@@ -8,6 +8,7 @@ import HealthEmpowermentSection from './HealthEmpowermentSection';
 import AboutusSection from './AboutusSection';
 import { useEffect, useState } from 'react';
 import Preloader from '../../Preloader';
+import DirectorMessageSection from './DirectorMessageSection';
 
 const HomePage = () => {
   const [loading, setLoading] = useState(true);
@@ -40,6 +41,7 @@ const HomePage = () => {
       <OurMissionSection />
       <OurVissionSection />
       <HealthEmpowermentSection />
+      <DirectorMessageSection />
       <Footer />
     </div>
   );

@@ -49,7 +49,7 @@ const Navbar = () => {
                     <div id="pq-menu-contain" className="pq-menu-contain">
                       <ul id="pq-main-menu" className="navbar-nav ml-auto">
                         <li className="menu-item current-menu-item">
-                          <li className="menu-item ">
+                          <li className="menu-item">
                             <a href="/">Home</a>
                           </li>
                         </li>

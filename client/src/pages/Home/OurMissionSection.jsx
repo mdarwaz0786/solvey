@@ -1,4 +1,4 @@
-import missionBg from "../../assets/3.png";
+import missionBg from "../../assets/2.png";
 
 const OurMissionSection = () => {
   return (
@@ -26,9 +26,9 @@ const OurMissionSection = () => {
             <div className="mb-4">
               <p className="mb-2">
                 Advancing women’s health in India through innovation and clinical excellence.
-                Supporting healthcare providers in achieving superior patient outcomes.
-                Partnering with the public sector and communities to build a healthier future for women.
               </p>
+              <p className="mb-2">Supporting healthcare providers in achieving superior patient outcomes.</p>
+              <p className="mb-2">Partnering with the public sector and communities to build a healthier future for women.</p>
             </div>
 
             {/* BUTTON */}
