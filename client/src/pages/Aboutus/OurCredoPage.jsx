@@ -1,0 +1,39 @@
+import Aboutus from '../../components/Aboutus/Aboutus';
+import Banner from '../../components/Banner/Banner';
+import Footer from '../../components/Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
+import banner from '../../assets/banner.png';
+import credoBg from '../../assets/3.png';
+import { useEffect, useRef } from 'react';
+
+const OurCredoPage = () => {
+
+  const aboutRef = useRef(null);
+
+  useEffect(() => {
+    aboutRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, []);
+
+  return (
+    <>
+      <Navbar />
+      <Banner src={banner} height='auto' />
+      <div ref={aboutRef}>
+        <Aboutus
+          backgroundImage={credoBg}
+          title="OUR CREDO"
+          paragraphs={[
+            "Solvey believes in putting people first (\"KEEPING YOU FIRST, ALWAYS\").",
+            "Primary Focus: Our efforts are dedicated to transforming the lives of women in India, who are at the core of our business.",
+            "Team and Future: The company has a dedicated team of skilled professionals and aims to become a leading organization known for 'timeless trust and boundless care'",
+            "Values: The company operates based on values such as integrity, empathy, respect, determination, and excellence."
+          ]}
+          image="/credo.jpg"
+        />
+      </div>
+      <Footer />
+    </>
+  );
+};
+
+export default OurCredoPage;

@@ -1,4 +1,17 @@
+import { Link, useLocation } from "react-router-dom";
+
 const Navbar = () => {
+  const location = useLocation();
+
+  const aboutRoutes = [
+    "/our-credo",
+    "/our-vision",
+    "/our-mission",
+    "/our-values",
+  ];
+
+  const isAboutActive = aboutRoutes.some(path => location.pathname.startsWith(path));
+
   return (
     <>
       <header id="pq-header" className="pq-header-default">
@@ -48,33 +61,33 @@ const Navbar = () => {
                   <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <div id="pq-menu-contain" className="pq-menu-contain">
                       <ul id="pq-main-menu" className="navbar-nav ml-auto">
-                        <li className="menu-item current-menu-item">
+                        <li className={`menu-item ${location.pathname === "/" ? "current-menu-item" : ""}`}>
                           <li className="menu-item">
-                            <a href="/">Home</a>
+                            <Link to="/">Home</Link>
                           </li>
                         </li>
-                        <li className="menu-item ">
+                        <li className={`menu-item ${isAboutActive ? "current-menu-item" : ""}`}>
                           <a href="#">About Us</a><i className="fa fa-chevron-down pq-submenu-icon" />
                           <ul className="sub-menu">
                             <li className="menu-item ">
-                              <a href="#">Our Credo</a>
+                              <Link to="/our-credo">Our Credo</Link>
                             </li>
                             <li className="menu-item">
-                              <a href="#">Vision</a>
+                              <Link to="/our-vision">Vision</Link>
                             </li>
                             <li className="menu-item ">
-                              <a href="#">Mission</a>
+                              <Link to="/our-mission">Mission</Link>
                             </li>
                             <li className="menu-item ">
-                              <a href="#">Values</a>
+                              <Link to="/our-values">Values</Link>
                             </li>
                           </ul>
                         </li>
-                        <li className="menu-item ">
+                        <li className={`menu-item ${location.pathname === "/health-empowerment" ? "current-menu-item" : ""}`}>
                           <a href="#">Our Stories</a><i className="fa fa-chevron-down pq-submenu-icon" />
                           <ul className="sub-menu" style={{ width: "250px" }}>
                             <li className="menu-item ">
-                              <a href="#">Womens Health Empowerment</a>
+                              <Link to="/health-empowerment">Womens Health Empowerment</Link>
                             </li>
                           </ul>
                         </li>
