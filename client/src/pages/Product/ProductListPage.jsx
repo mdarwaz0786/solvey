@@ -1,8 +1,7 @@
-import Banner from "../../components/Banner/Banner";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
-import banner from '../../assets/banner.png';
 import "./Style.css";
+import Video from "../../components/Video/Video";
 
 const productData = [
   {
@@ -96,8 +95,8 @@ const ProductListPage = () => {
   return (
     <>
       <Navbar />
-      <Banner src={banner} height='auto' />
-      <div className="container-fluid py-5">
+      <Video src="/solvey/product.mp4" height="400px" />
+      <div className="container-fluid">
         {productData?.map((cat, index) => (
           <div key={index} className="mb-5">
             {/* Category Title */}
