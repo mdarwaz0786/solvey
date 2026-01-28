@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
@@ -25,12 +27,12 @@ const Footer = () => {
                     <h4 className="footer-title">Our Courses</h4>
                     <div className="menu-useful-links-container">
                       <ul id="menu-useful-links" className="menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Our Product</a></li>
-                        <li><a href="#">Our Stories</a></li>
-                        <li><a href="#">Career</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/our-credo">About Us</Link></li>
+                        <li><Link to="/contact-us">Contact Us</Link></li>
+                        <li><Link to="/product-list">Our Product</Link></li>
+                        <li><Link to="/health-empowerment">Our Stories</Link></li>
+                        <li><Link to="/career">Career</Link></li>
                       </ul>
                     </div>
                   </div>

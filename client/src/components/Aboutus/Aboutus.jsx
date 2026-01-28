@@ -15,28 +15,23 @@ const Aboutus = ({
       }}
     >
       <div className="row g-0 align-items-stretch">
-
         {/* CONTENT SECTION */}
         <div className="col-lg-6 col-md-12 d-flex align-items-center">
           <div className="p-5 pt-0 text-white">
-
             {/* TITLE */}
             <h2 className="fw-bold text-warning mb-4">
               {title}
             </h2>
-
             {/* PARAGRAPHS */}
             <div className="mb-4">
-              {paragraphs.map((text, index) => (
+              {paragraphs?.map((text, index) => (
                 <p key={index} className="mb-2">
                   {text}
                 </p>
               ))}
             </div>
-
           </div>
         </div>
-
         {/* IMAGE SECTION */}
         <div className="col-lg-6 col-md-12">
           <img

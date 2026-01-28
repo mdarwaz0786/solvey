@@ -73,13 +73,13 @@ const Navbar = () => {
                               <Link to="/our-credo">Our Credo</Link>
                             </li>
                             <li className="menu-item">
-                              <Link to="/our-vision">Vision</Link>
+                              <Link to="/our-vision">Our Vision</Link>
                             </li>
                             <li className="menu-item ">
-                              <Link to="/our-mission">Mission</Link>
+                              <Link to="/our-mission">Our Mission</Link>
                             </li>
                             <li className="menu-item ">
-                              <Link to="/our-values">Values</Link>
+                              <Link to="/our-values">Our Values</Link>
                             </li>
                           </ul>
                         </li>
@@ -91,20 +91,20 @@ const Navbar = () => {
                             </li>
                           </ul>
                         </li>
-                        <li className="menu-item ">
+                        <li className={`menu-item ${location.pathname === "/product-list" || location.pathname === "/price-list" ? "current-menu-item" : ""}`}>
                           <a href="#">Products</a><i className="fa fa-chevron-down pq-submenu-icon" />
                           <ul className="sub-menu">
                             <li className="menu-item">
-                              <a href="#">Product Gallery</a>
-                              <a href="#">Price List</a>
+                              <Link to="/product-list">Product Gallery</Link>
+                              <Link to="/price-list">Price List</Link>
                             </li>
                           </ul>
                         </li>
-                        <li className="menu-item">
-                          <a href="#">Career</a>
+                        <li className={`menu-item ${location.pathname === "/career" ? "current-menu-item" : ""}`}>
+                          <Link to="/career">Career</Link>
                         </li>
-                        <li className="menu-item ">
-                          <a href="#">Contact Us</a>
+                        <li className={`menu-item ${location.pathname === "/contact-us" ? "current-menu-item" : ""}`}>
+                          <Link to="/contact-us">Contact Us</Link>
                         </li>
                       </ul>
                     </div>

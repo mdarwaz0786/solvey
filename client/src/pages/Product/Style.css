@@ -1,0 +1,16 @@
+.product-card {
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.product-img {
+  max-height: 170px;
+  object-fit: contain;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
