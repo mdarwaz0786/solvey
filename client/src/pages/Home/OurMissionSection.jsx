@@ -1,4 +1,5 @@
 import missionBg from "../../assets/2.png";
+import { Link } from "react-router-dom";
 
 const OurMissionSection = () => {
   return (
@@ -32,9 +33,9 @@ const OurMissionSection = () => {
             </div>
 
             {/* BUTTON */}
-            <a href="#" className="btn btn-light rounded-pill px-4">
+            <Link to="/our-mission" className="btn btn-light rounded-pill px-4">
               Read More →
-            </a>
+            </Link>
           </div>
         </div>
 

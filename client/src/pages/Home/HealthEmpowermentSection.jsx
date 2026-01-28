@@ -1,4 +1,5 @@
 import empowermentBg from "../../assets/3.png";
+import { Link } from "react-router-dom";
 
 const HealthEmpowermentSection = () => {
   return (
@@ -29,9 +30,9 @@ const HealthEmpowermentSection = () => {
             </div>
 
             {/* BUTTON */}
-            <a href="#" className="btn btn-light rounded-pill px-4">
+            <Link to="/health-empowerment" className="btn btn-light rounded-pill px-4">
               Read More →
-            </a>
+            </Link>
           </div>
         </div>
 

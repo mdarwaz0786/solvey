@@ -1,7 +1,7 @@
 import Banner from "../../components/Banner/Banner"
 import Footer from "../../components/Footer/Footer"
 import Navbar from "../../components/Navbar/Navbar"
-import banner from '../../assets/banner.png';
+
 import ContactUs from "../../components/Contactus/Contactus";
 import credoBg from '../../assets/1.png';
 
@@ -9,7 +9,7 @@ const ContactusPage = () => {
   return (
     <>
       <Navbar />
-      <Banner src={banner} height='auto' />
+      <Banner src="/solvey/contactusBanner.png" height='auto' />
       <ContactUs
         backgroundImage={credoBg}
         title="CONTACT US"

@@ -1,7 +1,6 @@
 import Banner from "../../components/Banner/Banner"
 import Footer from "../../components/Footer/Footer"
 import Navbar from "../../components/Navbar/Navbar"
-import banner from '../../assets/banner.png';
 import Career from "../../components/Career/Career";
 import credoBg from '../../assets/1.png';
 
@@ -9,7 +8,7 @@ const CareerPage = () => {
   return (
     <>
       <Navbar />
-      <Banner src={banner} height='auto' />
+      <Banner src="/solvey/careerBanner.png" height='auto' />
       <Career
         backgroundImage={credoBg}
         title="CAREERS"

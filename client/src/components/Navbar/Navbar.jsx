@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header id="pq-header" className="pq-header-default">
+      <header id="pq-header" className="pq-header-default" style={{ borderBottom: "1px solid #eee" }}>
         <div class="pq-top-header">
           <div class="container">
             <div class="row flex-row-reverse">
@@ -84,7 +84,7 @@ const Navbar = () => {
                           </ul>
                         </li>
                         <li className={`menu-item ${location.pathname === "/health-empowerment" ? "current-menu-item" : ""}`}>
-                          <a href="#">Our Stories</a><i className="fa fa-chevron-down pq-submenu-icon" />
+                          <Link to="/health-empowerment">Our Stories</Link><i className="fa fa-chevron-down pq-submenu-icon" />
                           <ul className="sub-menu" style={{ width: "250px" }}>
                             <li className="menu-item ">
                               <Link to="/health-empowerment">Womens Health Empowerment</Link>
@@ -92,11 +92,11 @@ const Navbar = () => {
                           </ul>
                         </li>
                         <li className={`menu-item ${location.pathname === "/product-list" || location.pathname === "/price-list" ? "current-menu-item" : ""}`}>
-                          <a href="#">Products</a><i className="fa fa-chevron-down pq-submenu-icon" />
+                          <Link to="/product-list">Products</Link><i className="fa fa-chevron-down pq-submenu-icon" />
                           <ul className="sub-menu">
                             <li className="menu-item">
                               <Link to="/product-list">Product Gallery</Link>
-                              <Link to="/price-list">Price List</Link>
+                              {/* <Link to="/price-list">Price List</Link> */}
                             </li>
                           </ul>
                         </li>

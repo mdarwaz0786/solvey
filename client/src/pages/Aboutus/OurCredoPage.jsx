@@ -2,7 +2,6 @@ import Aboutus from '../../components/Aboutus/Aboutus';
 import Banner from '../../components/Banner/Banner';
 import Footer from '../../components/Footer/Footer';
 import Navbar from '../../components/Navbar/Navbar';
-import banner from '../../assets/banner.png';
 import credoBg from '../../assets/3.png';
 
 const OurCredoPage = () => {
@@ -10,7 +9,7 @@ const OurCredoPage = () => {
   return (
     <>
       <Navbar />
-      <Banner src={banner} height='auto' />
+      <Banner src="/solvey/credoBanner.png" height='auto' />
       <Aboutus
         backgroundImage={credoBg}
         title="OUR CREDO"
@@ -20,7 +19,7 @@ const OurCredoPage = () => {
           "Team and Future: The company has a dedicated team of skilled professionals and aims to become a leading organization known for 'timeless trust and boundless care'",
           "Values: The company operates based on values such as integrity, empathy, respect, determination, and excellence."
         ]}
-        image="/credo.jpg"
+        image="/solvey/credoicon.png"
       />
       <Footer />
     </>
