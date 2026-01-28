@@ -17,7 +17,7 @@ const OurVissionSection = () => {
         {/* LEFT IMAGE SECTION */}
         <div className="col-lg-6 col-md-12">
           <img
-            src="/credo.jpg"
+            src="/solvey/visionimage.jpg"
             alt="image"
           />
         </div>

@@ -39,7 +39,7 @@ const HealthEmpowermentSection = () => {
         {/* LEFT IMAGE SECTION */}
         <div className="col-lg-6 col-md-12">
           <img
-            src="/credo.jpg"
+            src="/solvey/healthempowermentimage.jpg"
             alt="image"
           />
         </div>
