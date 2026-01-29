@@ -9,7 +9,7 @@ const productData = [
     products: [
       {
         id: 1,
-        name: "CIBIFER TABLETS",
+        name: "FEROMOM",
         image: "/product/feromom.jpeg",
       },
     ],
@@ -29,12 +29,12 @@ const productData = [
     products: [
       {
         id: 1,
-        name: "ROZICAL HD",
+        name: "ROZICAL-HD",
         image: "/product/rozicalhd.jpeg",
       },
       {
         id: 2,
-        name: "ROZICAL PLUS",
+        name: "ROZICAL-PLUS",
         image: "/product/rozicalplus.jpeg",
       },
       {
@@ -49,7 +49,7 @@ const productData = [
     products: [
       {
         id: 1,
-        name: "FUROVAL - L",
+        name: "FUROVAL-L",
         image: "/product/furoval.jpeg",
       },
     ],
@@ -65,11 +65,11 @@ const productData = [
     ],
   },
   {
-    category: "MULTIVITAMIN+ MULTI MINIRAL+  ANTIOXIDANTS+ AMINO ACIDS TABLETS +  NATURAL EXTRACTS",
+    category: "NATURAL EXTRACTS + MULTIVITAMIN + MULTI MINIRAL +  ANTIOXIDANTS + AMINO ACIDS TABLETS",
     products: [
       {
         id: 1,
-        name: "MULTISOL 11",
+        name: "MULTISOL-11",
         image: "/product/multisol11.jpeg",
       },
     ],
@@ -79,13 +79,43 @@ const productData = [
     products: [
       {
         id: 1,
-        name: "MULTISOL - AM",
+        name: "MULTISOL-AM",
         image: "/product/multisolam.jpeg",
       },
       {
         id: 2,
-        name: "MULTISOL - SF",
+        name: "MULTISOL-SF",
         image: "/product/multisolsf.jpeg",
+      },
+    ],
+  },
+  {
+    category: "PLATELETS BOOSTER",
+    products: [
+      {
+        id: 1,
+        name: "PLATISOL",
+        image: "/product/platisol.jpeg",
+      },
+    ],
+  },
+  {
+    category: "COCONUT WATER SACHET",
+    products: [
+      {
+        id: 1,
+        name: "COCOSOL",
+        image: "/product/cocosol.jpeg",
+      },
+    ],
+  },
+  {
+    category: "PCOS SUPPLEMENT",
+    products: [
+      {
+        id: 1,
+        name: "PCO-BEST",
+        image: "/product/pcobest.jpeg",
       },
     ],
   },

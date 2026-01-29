@@ -21,21 +21,21 @@ const Navbar = () => {
               <div class="col-md-6 text-right">
                 <div class="pq-header-social text-right">
                   <ul>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                    <li><Link to="#"><i class="fab fa-facebook-f"></i></Link></li>
+                    <li><Link to="#"><i class="fab fa-google-plus-g"></i></Link></li>
+                    <li><Link to="#"><i class="fab fa-instagram"></i></Link></li>
+                    <li><Link to="#"><i class="fab fa-pinterest"></i></Link></li>
                   </ul>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="pq-header-contact ">
                   <ul>
-                    <li>
+                    {/* <li>
                       <a href="tel:+910123456789"><i class="fas fa-phone"></i>
                         <span> +91-0123456789</span>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="mailto:info@peacefulthemes.com"><i
                         class="fas fa-envelope"></i><span>contact@solvey.co.in</span></a>
