@@ -125,7 +125,7 @@ const ProductListPage = () => {
   return (
     <>
       <Navbar />
-      <Video src="/solvey/product.mp4" height="400px" />
+      <Video src="/solvey/product.mp4" />
       <div className="container-fluid">
         {productData?.map((cat, index) => (
           <div key={index} className="mb-5">

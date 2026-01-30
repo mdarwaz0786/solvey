@@ -1,6 +1,5 @@
 const Video = ({
   src,
-  height = "300px",
   autoPlay = true,
   loop = true,
   muted = true,
@@ -8,8 +7,7 @@ const Video = ({
   return (
     <div className="container-fluid p-0">
       <video
-        className="w-100"
-        style={{ height: height, objectFit: "cover" }}
+        className="w-100 h-100 object-fit-cover"
         src={src}
         autoPlay={autoPlay}
         loop={loop}

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const OurCredoSection = () => {
   return (
     <div
-      className="container-fluid p-5"
+      className="container-fluid pb-5 pt-5 ps-4 pe-4"
       style={{
         backgroundImage: `url(${credoBg})`,
         backgroundSize: "cover",
@@ -12,7 +12,7 @@ const OurCredoSection = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="row g-0 align-items-stretch">
+      <div className="row g-5 align-items-stretch">
 
         {/* LEFT IMAGE SECTION */}
         <div className="col-lg-6 col-md-12">
@@ -24,7 +24,7 @@ const OurCredoSection = () => {
 
         {/* RIGHT CONTENT SECTION */}
         <div className="col-lg-6 col-md-12 d-flex align-items-center">
-          <div className="p-5 pt-0 text-white">
+          <div className="text-white">
 
             {/* TITLE */}
             <h2 className="fw-bold text-warning mb-4">
