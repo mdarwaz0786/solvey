@@ -15,9 +15,9 @@ const Footer = () => {
                     <div className="pq-footer-social">
                       <ul>
                         <li><Link to="#"><i className="fab fa-facebook-f" /></Link></li>
-                        <li><Link to="#"><i className="fab fa-google-plus-g" /></Link></li>
+                        {/* <li><Link to="#"><i className="fab fa-google-plus-g" /></Link></li> */}
                         <li><Link to="#"><i className="fab fa-instagram" /></Link></li>
-                        <li><Link to="#"><i className="fab fa-pinterest" /></Link></li>
+                        {/* <li><Link to="#"><i className="fab fa-pinterest" /></Link></li> */}
                       </ul>
                     </div>
                   </div>

@@ -22,9 +22,7 @@ const Navbar = () => {
                 <div class="pq-header-social text-right">
                   <ul>
                     <li><Link to="#"><i class="fab fa-facebook-f"></i></Link></li>
-                    <li><Link to="#"><i class="fab fa-google-plus-g"></i></Link></li>
                     <li><Link to="#"><i class="fab fa-instagram"></i></Link></li>
-                    <li><Link to="#"><i class="fab fa-pinterest"></i></Link></li>
                   </ul>
                 </div>
               </div>
@@ -109,7 +107,7 @@ const Navbar = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="pq-menu-search-block">
+                  {/* <div className="pq-menu-search-block">
                     <a href="#" id="pq-seacrh-btn"><i className="ti-search" /></a>
                     <div className="pq-search-form">
                       <form role="search" method="get" className="search-form" action="https://peacefulqode.co.in/themes/medicate/html/.html">
@@ -120,7 +118,7 @@ const Navbar = () => {
                         <button type="submit" className="search-submit"><span className="screen-reader-text">Search</span></button>
                       </form>
                     </div>
-                  </div>
+                  </div> */}
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fas fa-bars" />
                   </button>

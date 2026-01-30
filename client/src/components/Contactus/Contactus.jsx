@@ -18,9 +18,9 @@ const Contactus = ({
         {/* LEFT CONTENT */}
         <div className="col-lg-6 col-md-12 d-flex align-items-center">
           <div className="text-white">
-            <h2 className="fw-bold text-warning mb-4">
+            <h4 className="fw-bold text-warning mb-4">
               {title}
-            </h2>
+            </h4>
             <div className="mb-4">
               {paragraphs?.map((text, index) => (
                 <p key={index} className="mb-2">

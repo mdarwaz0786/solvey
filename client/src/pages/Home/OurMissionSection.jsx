@@ -19,9 +19,9 @@ const OurMissionSection = () => {
           <div className="text-white">
 
             {/* TITLE */}
-            <h2 className="fw-bold text-warning mb-4">
+            <h4 className="fw-bold text-warning mb-4">
               OUR MISSION
-            </h2>
+            </h4>
 
             {/* DESCRIPTION */}
             <div className="mb-4">

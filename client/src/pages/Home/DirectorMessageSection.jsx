@@ -26,9 +26,9 @@ const DirectorMessageSection = () => {
           <div className="text-white">
 
             {/* TITLE */}
-            <h2 className="fw-bold text-warning mb-4">
+            <h4 className="fw-bold text-warning mb-4">
               DIRECTOR'S MESSAGE
-            </h2>
+            </h4>
 
             {/* DESCRIPTION */}
             <div className="mb-4">
